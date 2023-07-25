@@ -1,0 +1,91 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+form{
+    width: 900px;
+    height: 450px;
+    margin: 10% auto;
+    background: linear-gradient(to right,#082a3a ,#1f6cab ,#00e6f6 );
+    color: azure;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    font-weight: 600;
+    z-index: 99999;
+}
+.title{
+    font-size: 40px;
+    margin: 3px auto;
+    padding: 10px;
+}
+hr.new {
+    border-top: 1px solid red;
+    width: 50%;
+    margin:5px auto;
+  }
+  .date , .timee{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    font-size: 30px;
+  }
+ .delay , .leave{
+    margin-top: 10px;
+    font-size: 25px;
+    padding: 10px;
+    
+ }
+ .btn{
+    width: 106px;
+    height: 43px;
+    background-color: #6cc2defc;
+    border-radius: 6px;
+    position: absolute;
+    font-size: large;
+    cursor: pointer;
+    margin-left: -424px;
+    box-shadow: 2px -1px 10px 0px #00e6f6;
+    font-weight: 600;
+}
+
+input{
+    border-radius: 6px;
+    font-size: 27px;
+    padding: 5px;
+}
+select{
+    border-radius: 6px;
+    font-size: 26px;
+    padding: 5px;
+}
+.close{
+    width: 35px;
+    height: 35px;
+    margin: 5px auto;
+    background-color: #1f6cab;
+    position: absolute;
+    margin-left: 94%;
+    border-radius: 50%;
+    margin-top: -7%;
+    font-size: 30px;
+    cursor: pointer;
+    color: #00e6f6;
+    box-shadow: 4px 0px 16px 0px #060712;
+}
+.timee .time{
+
+}
